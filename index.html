@@ -1,0 +1,29 @@
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <title>CCTV-Detect</title>
+      <link href="./style.css" rel="stylesheet"/>
+      <script src="./lib/jquery/jquery-3.2.1.js"></script>
+      <script src="./lib/diff-cam/diff-cam-engine.js"></script>
+
+    </head>
+    <body>
+      <figure>
+  			<video id="video"></video>
+  			<figcaption>Live Video</figcaption>
+  		</figure>
+
+  		<figure>
+  			<canvas id="motion"></canvas>
+  			<figcaption>
+  				Motion Heatmap<br>
+  				Score: <span id="score">?</span>
+  			</figcaption>
+  		</figure>
+      <button>Click me!</button>
+      <div id="captured">
+        
+      </div>
+      <script src="./app.js"></script>
+    </body>
+</html>
