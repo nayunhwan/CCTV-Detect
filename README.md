@@ -1,5 +1,8 @@
 # CCTV-Detect
 CCTV-Detect
 
-# Library
+## Library
 [Diff-cam-engine](https://github.com/lonekorean/diff-cam-engine)
+
+## LICENSE
+[MIT Licensed](./LICENSE)
