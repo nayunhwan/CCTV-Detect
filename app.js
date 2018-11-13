@@ -52,7 +52,7 @@ function analyzeImage() {
   console.log('analyze');
   var blob = getBlob();
   var url = 'https://api.projectoxford.ai/vision/v1.0/analyze?visualFeatures=Description,Faces&language=en';
-  var apiKey = 'c8a88151c9c84934aef42a17c161eb5f';
+  var apiKey = YOUR-API-KEY;
   $.ajax({
     url: url,
     type: 'POST',
